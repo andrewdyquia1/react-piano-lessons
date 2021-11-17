@@ -73,22 +73,28 @@ export const qAndAs = [
     },
     {
         id: 5,
+        question: "What platforms do you use for online lessons?",
+        answer: "I typically use Zoom for lessons but I'm familiar with FaceTime, Skype, and Discord."
+    },
+    {
+        id: 6,
         question: "When are you available for contact?",
         answer: "Generally I answer from 9 AM-9PM every day. I prefer text or email during working hours as I may be teaching."
     },
     {
-        id: 6,
+        id: 7,
         question: "How do you charge payments for lessons?",
         answer: "At the beginning of the month, the student and I will determine how many lessons we will do for the month; this will typically be one lesson a week. I will charge for those lessons at the end of that month. Any lessons missed for that month will still be charged at the end of the month."
     },
     {
-        id: 7,
+        id: 8,
         question: "What is your cancellation policy?",
         answer: "If a lesson time can't be honored by the student, the student can skip the lesson and receive a make up lesson if a) I'm given at least 24 hours before the time of the lesson, or b) the student is sick, has a mandatory event to attend, has a family emergency, or any other emergency if contact is made less than 24 hours of the lesson. If a cancellation is made without at least one of these requirements, the lesson can't be made up and will still be charged at the end of the month."
     },
     {
-        id: 8,
+        id: 9,
         question: "What is a make up lesson and how does it work?",
         answer: "A make up lesson is given if a normal lesson can't be attended by either the student, given proper notification, or by me. We will pick a day and time to do the make up lesson. A make up lesson has no fee. I will rarely have to cancel a lesson and if I do, it will usually be at least two weeks in advanced; the exception is if I'm sick or have some other emergency."
     },
+    
 ]
