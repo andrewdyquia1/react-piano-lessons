@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledCard = styled.div`
-    width: 65vw;
+    width: 75vw;
+    max-width: 400px;
     padding: 10px;
     background: var(--light-gray);
     text-align: center;
@@ -30,14 +31,9 @@ export const PerHour = styled.div`
     font-size: 0.7rem;
     color: #000;
     position: absolute; 
-    bottom: 16px; 
-    right:-27px;
+    bottom: 10px; 
+    right:-38px;
     font-weight:400;
-
-    @media(min-width: 768px){
-        font-size: 0.8rem;
-        right:-40px;
-    }
 `
 
 export const CommentContainer = styled.ul`

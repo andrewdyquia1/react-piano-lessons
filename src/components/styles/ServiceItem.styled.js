@@ -19,7 +19,7 @@ export const CardContainer = styled.div`
         margin-bottom: 30px;
     }
 
-     @media(min-width: 850px){
+     @media(min-width: 875px){
          flex-direction: row;
          justify-content: space-around; 
          align-items: stretch;

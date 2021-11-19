@@ -1,4 +1,4 @@
-import { ContactContainer, FlexContainer, Phone, Email, Span, StyledFooter, Copyright } from "./styles/Footer.styled"
+import { ContactContainer, FlexContainer, Span, StyledFooter, Copyright } from "./styles/Footer.styled"
 
 export default function Footer() {
     return (
