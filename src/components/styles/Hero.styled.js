@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import heroImg from "../images/piano-picture.jpg";
+import heroImg from "../../images/piano-picture.jpg";
 
 export const StyledHero = styled.section`
     max-width: 100vw;

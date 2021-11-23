@@ -23,8 +23,9 @@ export const Question = styled.div`
     padding-right: 15vw;
 `
 
-export const ButtonContainer = styled.div`
-    cursor: pointer;
+export const Button = styled.button`
+    background: var(--dark-gray);
+    border: none;
 `
 
 export const Minus = styled(FaMinus)`

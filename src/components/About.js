@@ -1,5 +1,5 @@
 import { StyledAbout, Container, ImgContainer, ProfileImg, ParagraphContainer, AboutParagraph } from  "./styles/About.styled.js"
-import profilePicture from "./images/andrew-dyquiangco.jpg";
+import profilePicture from "../images/andrew-dyquiangco.jpg";
 import { biography } from "../data.js"
 
 export default function About() {

@@ -1,3 +1,10 @@
+export const navItems = [
+    {id: 1, href: '#services', name: 'Services'},
+    {id: 2, href: '#about', name: 'About'},
+    {id: 3, href: '#faq', name: 'FAQ'},
+    {id: 4, href: '#contact', name: 'Contact'},
+]
+
 export const lessonTypes = [
     {id: 1, lessonType:'Online Lessons'}, 
     {id: 2, lessonType: `Lessons at Student's Residence`}, 
@@ -54,7 +61,7 @@ export const qAndAs = [
     {
         id: 1,
         question: "When are you available to teach?",
-        answer: "I am available to teach weekdays from 1-8 PM and can do make up lessons Saturday from 10 AM-2 PM."
+        answer: "I am available to teach weekdays from 1-8 PM PT and can do make up lessons Saturday from 10 AM-2 PM PT."
     },
     {
         id: 2,
@@ -74,17 +81,17 @@ export const qAndAs = [
     {
         id: 5,
         question: "What platforms do you use for online lessons?",
-        answer: "I typically use Zoom for lessons but I'm familiar with FaceTime, Skype, and Discord."
+        answer: "I typically use Zoom for lessons but I'm also familiar with FaceTime, Skype, and Discord. If you have a preferred video chat application not listed, let me know and I can try to make it work."
     },
     {
         id: 6,
         question: "When are you available for contact?",
-        answer: "Generally I answer from 9 AM-9PM every day. I prefer text or email during working hours as I may be teaching."
+        answer: "Generally I answer from 9 AM-9 PM PT every day. I prefer text or email during working hours as I may be teaching."
     },
     {
         id: 7,
         question: "How do you charge payments for lessons?",
-        answer: "At the beginning of the month, the student and I will determine how many lessons we will do for the month; this will typically be one lesson a week. I will charge for those lessons at the end of that month. Any lessons missed for that month will still be charged at the end of the month."
+        answer: "At the beginning of the month, the student and I will determine how many lessons we will do for the month; this will typically be one lesson a week. I will charge for those lessons at the end of that month. Any lessons missed for that month will still be charged at the end of the month. I take payments through Venmo, check, or cash."
     },
     {
         id: 8,

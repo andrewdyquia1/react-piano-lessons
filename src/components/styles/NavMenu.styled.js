@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledNavMenu = styled.div`
+export const StyledNavMenu = styled.ul`
     ${props => {
         if(props.toggle){
             return `
@@ -14,12 +14,10 @@ export const StyledNavMenu = styled.div`
             text-align: center;
             font-size: 2rem;
             line-height: 4rem;
-            padding-bottom: 50px;
-
             @media(min-width: 760px){
                 all:unset;
             }    
-        `;
+            `;
         } else {
             return `
             display: none;
@@ -32,8 +30,9 @@ export const StyledNavMenu = styled.div`
             align-items: center;
             height: 100%;
             font-family: "Roboto";
-            
-            & > div{
+            list-style: none;
+
+            & > li{
             margin-left: 30px;
             }
         }

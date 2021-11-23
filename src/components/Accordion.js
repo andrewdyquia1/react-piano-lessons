@@ -1,4 +1,4 @@
-import { Answer, ButtonContainer, Minus, Plus, Question, QuestionContainer, StyledAccordion } from "./styles/Accordion.styled";
+import { Answer, Button, Minus, Plus, Question, QuestionContainer, StyledAccordion } from "./styles/Accordion.styled";
 import { useState } from "react"
 export default function Accordion( {question, answer}) {
     const [display, setDisplay] = useState(false)
@@ -9,10 +9,10 @@ export default function Accordion( {question, answer}) {
         <StyledAccordion>
             <QuestionContainer onClick={toggleAccordion}>
                 <Question>{question}</Question>
-                <ButtonContainer>
+                <Button>
                     <Minus toggle={display}></Minus>
                     <Plus toggle={display}></Plus>
-                </ButtonContainer>
+                </Button>
             </QuestionContainer>
             <Answer toggle={display}>{answer}</Answer>
         </StyledAccordion>

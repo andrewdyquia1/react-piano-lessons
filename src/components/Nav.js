@@ -2,13 +2,12 @@ import NavMenu from "./NavMenu"
 import NavLogo from "./NavLogo"
 import { StyledNav, Container, Bars } from "./styles/Nav.styled"
 import { useState } from "react"
-
 export default function Nav() {
 
     const [display, setDisplay] = useState(false)
 
     const toggleNav = () => {
-        setDisplay(!display)
+        if (window.innerWidth < 768) setDisplay(!display)
     }
 
     return (
@@ -16,7 +15,7 @@ export default function Nav() {
             <Container>
                 <Bars onClick={toggleNav}></Bars>
                 <NavLogo></NavLogo>
-                <NavMenu boolean={display ? true : false}/>
+                <NavMenu func={toggleNav} display={display}/>
             </Container>
         </StyledNav>
     )

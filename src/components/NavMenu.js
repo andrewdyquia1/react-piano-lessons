@@ -1,14 +1,16 @@
 import NavItem from "./NavItem.js"
+import { navItems } from "../data.js";
 import { StyledNavMenu } from "./styles/NavMenu.styled"
-
-export default function NavMenu( {boolean} ) {
-
+export default function NavMenu( {display, func} ) {
+    
     return (
-        <StyledNavMenu toggle={boolean} className='nav-active'>
-            <NavItem href='#services' name='Services'/>            
-            <NavItem href='#about' name='About'/>            
-            <NavItem href='#faq' name='FAQ'/>            
-            <NavItem href='#contact' name='Contact'/>            
+        <StyledNavMenu toggle={display} className='nav-active'>
+            {navItems.map((navItem) => {
+                const {id, href, name} = navItem;
+                return (
+                    <NavItem key={id} func={func} href={href} name={name}></NavItem>
+                )
+            })}
         </StyledNavMenu>
     )
 }
