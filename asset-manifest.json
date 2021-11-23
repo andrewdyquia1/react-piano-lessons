@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-piano-lessons/static/css/main.bc635e91.chunk.css",
-    "main.js": "/react-piano-lessons/static/js/main.199c4324.chunk.js",
-    "main.js.map": "/react-piano-lessons/static/js/main.199c4324.chunk.js.map",
+    "main.js": "/react-piano-lessons/static/js/main.6ccdef38.chunk.js",
+    "main.js.map": "/react-piano-lessons/static/js/main.6ccdef38.chunk.js.map",
     "runtime-main.js": "/react-piano-lessons/static/js/runtime-main.a570c291.js",
     "runtime-main.js.map": "/react-piano-lessons/static/js/runtime-main.a570c291.js.map",
-    "static/js/2.a5aea77b.chunk.js": "/react-piano-lessons/static/js/2.a5aea77b.chunk.js",
-    "static/js/2.a5aea77b.chunk.js.map": "/react-piano-lessons/static/js/2.a5aea77b.chunk.js.map",
+    "static/js/2.4139924a.chunk.js": "/react-piano-lessons/static/js/2.4139924a.chunk.js",
+    "static/js/2.4139924a.chunk.js.map": "/react-piano-lessons/static/js/2.4139924a.chunk.js.map",
     "static/js/3.ae2cce9b.chunk.js": "/react-piano-lessons/static/js/3.ae2cce9b.chunk.js",
     "static/js/3.ae2cce9b.chunk.js.map": "/react-piano-lessons/static/js/3.ae2cce9b.chunk.js.map",
     "index.html": "/react-piano-lessons/index.html",
     "static/css/main.bc635e91.chunk.css.map": "/react-piano-lessons/static/css/main.bc635e91.chunk.css.map",
-    "static/js/2.a5aea77b.chunk.js.LICENSE.txt": "/react-piano-lessons/static/js/2.a5aea77b.chunk.js.LICENSE.txt",
+    "static/js/2.4139924a.chunk.js.LICENSE.txt": "/react-piano-lessons/static/js/2.4139924a.chunk.js.LICENSE.txt",
     "static/media/andrew-dyquiangco.c708ef89.jpg": "/react-piano-lessons/static/media/andrew-dyquiangco.c708ef89.jpg",
     "static/media/piano-picture.2e51edd0.jpg": "/react-piano-lessons/static/media/piano-picture.2e51edd0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a570c291.js",
-    "static/js/2.a5aea77b.chunk.js",
+    "static/js/2.4139924a.chunk.js",
     "static/css/main.bc635e91.chunk.css",
-    "static/js/main.199c4324.chunk.js"
+    "static/js/main.6ccdef38.chunk.js"
   ]
 }
