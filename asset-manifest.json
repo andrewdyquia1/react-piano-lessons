@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-piano-lessons/static/css/main.bc635e91.chunk.css",
-    "main.js": "/react-piano-lessons/static/js/main.6ccdef38.chunk.js",
-    "main.js.map": "/react-piano-lessons/static/js/main.6ccdef38.chunk.js.map",
+    "main.js": "/react-piano-lessons/static/js/main.d127c8fa.chunk.js",
+    "main.js.map": "/react-piano-lessons/static/js/main.d127c8fa.chunk.js.map",
     "runtime-main.js": "/react-piano-lessons/static/js/runtime-main.a570c291.js",
     "runtime-main.js.map": "/react-piano-lessons/static/js/runtime-main.a570c291.js.map",
     "static/js/2.4139924a.chunk.js": "/react-piano-lessons/static/js/2.4139924a.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.a570c291.js",
     "static/js/2.4139924a.chunk.js",
     "static/css/main.bc635e91.chunk.css",
-    "static/js/main.6ccdef38.chunk.js"
+    "static/js/main.d127c8fa.chunk.js"
   ]
 }
