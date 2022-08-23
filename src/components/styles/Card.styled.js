@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledCard = styled.div`
-    width: 75vw;
+    width: 60vw;
     max-width: 400px;
     padding: 10px;
     background: var(--light-gray);
@@ -9,36 +9,34 @@ export const StyledCard = styled.div`
     box-shadow: 8px 0px 20px var(--dark-blue);
     
     
-    @media(min-width: 1200px){
+    @media(min-width: 1000px){
         width: 350px; 
     }
 `
 
 export const PriceContainer = styled.div`
+    padding-bottom: 15px;
 `
-export const CardHeaderTwo = styled.h2`
+export const CardHeaderTwo = styled.h3`
     width: 150px;
     margin: 0 auto;
-    font-size: 5rem;
+    font-size: 2rem;
     position: relative;
     color: #000;
-    @media(min-width: 850px){
-        font-size: 5rem;
-    }
 `
 
 export const PerHour = styled.div`
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: #000;
     position: absolute; 
-    bottom: 10px; 
-    right:-38px;
+    bottom: -5px; 
+    right:-40px;
     font-weight:400;
 `
 
 export const CommentContainer = styled.ul`
     text-align: start;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 
     & > *:not(:last-child){

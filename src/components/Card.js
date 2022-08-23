@@ -5,14 +5,15 @@ export default function Card( { length, price, num, secondNum }) {
         <StyledCard>
             
                 <PriceContainer>
-                    <h3 className='header-three'>{length}</h3>
-                    <CardHeaderTwo>{price} <PerHour>/ week *</PerHour></CardHeaderTwo>
+                    <h4 className='header-three'>{length}</h4>
+                    <CardHeaderTwo>{price} <PerHour>/ 4-week month *</PerHour></CardHeaderTwo>
                 </PriceContainer>
                 <CommentContainer>
                     {comments[num][secondNum].map((comment) => {
+                        const id = comments[num][secondNum].indexOf(comment)
                         const { text } = comment
                         return(
-                            <li>{text}</li>
+                            <li key={id}>{text}</li>
                         )
                     })}
                 </CommentContainer>

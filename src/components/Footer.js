@@ -8,7 +8,7 @@ export default function Footer() {
                     <Span>Call or Text: <a href="tel:7143102211">(714)310-2211</a></Span>
                     <Span>Email: <a href="mailto:andrewdyquia.93@gmail.com">andrewdyquia.93@gmail.com</a></Span>
                 </ContactContainer>
-                <Copyright>&copy; 2021 Andrew Dyquiangco</Copyright>
+                <Copyright>&copy; 2022 Andrew Dyquiangco</Copyright>
             </FlexContainer>
         </StyledFooter>
     )

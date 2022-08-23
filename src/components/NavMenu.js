@@ -6,7 +6,9 @@ export default function NavMenu( {display, func} ) {
     return (
         <StyledNavMenu toggle={display} className='nav-active'>
             {navItems.map((navItem) => {
-                const {id, href, name} = navItem;
+            
+                const id = navItems.indexOf(navItem)
+                const {href, name} = navItem;
                 return (
                     <NavItem key={id} func={func} href={href} name={name}></NavItem>
                 )

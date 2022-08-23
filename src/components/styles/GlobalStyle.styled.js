@@ -43,6 +43,11 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 2rem; 
     }
 
+    h2{
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+
     .header-three{
         font-size: 1.5rem;
     }

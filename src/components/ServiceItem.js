@@ -7,9 +7,11 @@ export default function ServiceItem( {lessonType, num }) {
             <h3 className='header-three'>{lessonType}</h3>
             <CardContainer>
                 {lessonPrices[num].map((lessonPrice) => {
-                const { id, length, price } = lessonPrice
+                const id = lessonPrices[num].indexOf(lessonPrice)
+                const { length, price } = lessonPrice
+    
                 return(
-                    <Card key={id} length={length} price={price} num={num} secondNum={id - 1}></Card>
+                    <Card key={id} length={length} price={price} num={num} secondNum={id}></Card>
                 )
             })}
             </CardContainer>

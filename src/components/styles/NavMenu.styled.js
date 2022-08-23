@@ -14,6 +14,7 @@ export const StyledNavMenu = styled.ul`
             text-align: center;
             font-size: 2rem;
             line-height: 4rem;
+            list-style:none;
             @media(min-width: 760px){
                 all:unset;
             }    
